@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  height: 15vh;
+  background-color: lightblue;
+}
+
+.links {
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: black;
+}
+
+.button {
+  align-self: center;
+}
+
+.sidebar {
+  background-color: aquamarine;
+  width: 15vw;
+}
+.content {
+  flex-grow: 1;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer {
+  height: 15vh;
+  background-color: lightcoral;
+}
